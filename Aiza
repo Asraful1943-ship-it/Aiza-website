@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056c8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #ddd;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        My Website
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Welcome!</h2>
+            <p>This is your custom HTML website created by ChatGPT.</p>
+            <button onclick="alert('Button Clicked!')">Click Me</button>
+        </div>
+
+        <div class="card">
+            <h2>About This Page</h2>
+            <p>You can edit the text, colors, and layout any way you want. 
+               Tell me if you want images, forms, login page, product page, 
+               animation, or anything else!</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Your Website. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
